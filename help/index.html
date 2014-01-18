@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>Documentation</title>
+
+<!-- Bootstrap core CSS -->
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+
+<!-- Documentation extras -->
+<link href="assets/css/docs.css" rel="stylesheet">
+<link href="assets/css/pygments-manni.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+  <script src="assets/js/html5shiv.js"></script>
+  <script src="assets/js/respond.min.js"></script>
+<![endif]-->
+
+    <!-- Place anything custom after this. -->
+  </head>
+  <body>
+    <a class="sr-only" href="#content">Skip navigation</a>
+
+    <!-- Docs master nav -->
+    <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="http://themeforest.net/user/nasirwd" class="navbar-brand" style="padding:0"><img src="assets/img/logo.jpg" alt="" style="height:50px" /></a>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li class="active">
+          <a href="">Documentation</a>
+        </li>
+        <li>
+          <a href="http://themeforest.net/item/maximus-html-5-one-page-responsive-theme/6492760?WT.ac=follow&WT.seg_1=follow&WT.z_author=nasirwd">Live Preview</a>
+        </li>
+        <li>
+          <a href="http://themeforest.net/item/maximus-html-5-one-page-responsive-theme/6492760?WT.ac=follow&WT.seg_1=follow&WT.z_author=nasirwd">Purchase</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+    <!-- Docs page layout -->
+    <div class="bs-header" id="content">
+      <div class="container">
+        <h1>Maximus | Multipurpose HTML5 Theme</h1>
+        <p>Created: 29 Dec 13</p>
+		<p>By: <a href="http://themeforest.net/user/nasirwd">NasirWd</a></p>
+      </div>
+    </div>
+
+    <!-- Callout for the old docs link -->
+    <div class="bs-old-docs">
+  <div class="container">
+	<strong>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free Contact& Don't forget to rate! </strong>
+  </div>
+</div>
+
+
+    <div class="container bs-docs-container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="bs-sidebar hidden-print" role="complementary">
+            <ul class="nav bs-sidenav">
+              
+                <li>
+				  <a href="#cat1">1- Theme Structure</a>
+				  <ul class="nav">
+					<li><a href="#cat1_1">-- HTML Files</a></li>
+					<li><a href="#cat1_2">-- Stylesheets Files</a></li>
+					<li><a href="#cat1_3">-- Javascript Files</a></li>
+					<li><a href="#cat1_4">-- Images Files</a></li>
+					<li><a href="#cat1_5">-- Fonts Files</a></li>
+				  </ul>
+				</li>          
+
+				<li>
+				  <a href="#cat2">2- Styles</a>
+				  <ul class="nav">
+					<li><a href="#cat2_1">-- CSS Structure</a></li>
+                    <li><a href="#cat2_2">-- Skin/Colors</a></li>
+				  </ul>
+				</li>	
+
+				<li>
+				  <a href="#cat3">3- JavaScript</a>
+				  <ul class="nav">
+					<li><a href="#cat3_1">-- MixitUp (Filtering Plugin)</a></li>
+					<li><a href="#cat3_2">-- Flexslider Plugin</a></li>
+					<li><a href="#cat3_3">-- Masonry layout</a></li>
+                    <li><a href="#cat3_4">-- CarouselFredSel</a></li>
+                    
+				  </ul>
+				</li>
+				
+				<li>
+				  <a href="#cat4">4- PHP</a>
+				  <ul class="nav">
+					<li><a href="#cat4_1">-- Customize form message and email address</a></li>
+				  </ul>
+				</li>	
+				
+				<li>
+				  <a href="#cat5">5- Credits</a>
+				</li>
+				
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-9" role="main">
+            <!-- Getting started
+  ================================================== -->
+  <div class="bs-docs-section">
+<section id="cat1">
+	<div class="page-header">
+	  <h1>Theme Structure</h1>
+	</div>
+	
+    <p>This theme was built with the help of <a href="http://twitter.github.io/bootstrap/">Twitter Bootstrap</a>.<br>
+	Open the TEMPLATE folder and your will find all HTML, CSS, JS and PHP files that you'll need to customize and add your content.</p>
+	
+	<br>
+	
+  <div id="cat1_1">
+  <div class="span3">
+	<h3>HTML Files</h3>
+  </div>
+
+	<div class="span9">
+        <table class="table table-bordered table-striped">
+              <thead>
+            <tr>
+                  <th>File Name</th>
+                  <th>Description</th>
+                </tr>
+          </thead>
+              <tbody>
+            <tr>
+                  <td><code>index.html</code></td>
+                  <td>Landing page where one could display services, portfolio, and information about team members</td>
+			</tr>         
+				
+			<tr>
+                  <td><code>blog.html</code></td>
+                  <td>Blog articles with masonry style</td>
+			</tr>
+            
+            <tr>
+                  <td><code>blog-v2.html</code></td>
+                  <td>Blog articles with unique style</td>
+			</tr>
+                 
+			<tr>
+                  <td><code>blog-detail.html</code></td>
+                  <td>Blog single page.</td>
+			</tr>
+          </tbody>
+            </table>
+      </div>
+	 </div> 
+	<div class="clearfix"></div> 
+    <hr />
+	
+	
+  <div id="cat1_2">
+  <div class="span3">
+	<h3>Stylesheets Files</h3>
+	<p>assets/css folder</p>
+    
+	<br>
+  </div>
+
+	<div class="span9">
+        <table class="table table-bordered table-striped">
+              <thead>
+            <tr>
+                  <th>File Name</th>
+                  <th>Description</th>
+                </tr>
+          </thead>
+              <tbody> 
+			<tr>
+                  <td><code>main.css</code></td>
+                  <td>Main CSS file of the template.</td>
+			</tr>
+            <tr>
+                  <td><code>dark.css</code></td>
+                  <td>Dark layout for theme</td>
+			</tr>				
+			<tr>
+                  <td><code>bootstrap.min.css</code><br><code>bootstrap-responsive.min.css</code></td>
+                  <td>Twitter Bootstrap framework.</td>
+			</tr>	
+			<tr>
+                  <td><code>flexslider.css</code></td>
+                  <td>CSS file for sliders, used in "OUR PROJECTS" and "TESTIMONIALS".</td>
+			</tr>
+            	
+			<tr>
+                  <td><code>font-awesome.css</code></td>
+                  <td>CSS file for custom icons.</td>
+			</tr>
+            
+            
+            
+            <tr>
+                  <td><code>prettyPhoto.css</code></td>
+                  <td>CSS file for lightbox used in the portfolio</td>
+			</tr>
+				
+          </tbody>
+            </table>
+      </div>
+	 </div> 
+	<div class="clearfix"></div> 
+    <hr />	
+  <div id="cat1_3">
+  <div class="span3">
+	<h3>Javascript Files</h3>
+	<p>assets/js folder</a>
+   
+
+
+	
+        <table class="table table-bordered table-striped">
+              <thead>
+            <tr>
+                  <th>File Name</th>
+                  <th>Description</th>
+                </tr>
+          </thead>
+              <tbody> 
+			<tr>
+                  <td><code>main.js</code></td>
+                  <td>Main JS file to call and init all javascript used in the template.<br>
+				  **** You can edit all values of slider</td>
+			</tr>		
+			<tr>
+                  <td><code>bootstrap.min.js</code></td>
+                  <td>Twitter Bootstrap framework.</td>
+			</tr>		
+			<tr>
+                  <td><code>jquery-1.10.1.min.js</code><br><code>jquery.easing-1.3.pack.js</code></td>
+                  <td>jQuery library.</td>
+			</tr>		
+			<tr>
+                  <td><code>modernizr-2.6.2.min.js</code></td>
+                  <td>Modernizr library.</td>
+			</tr>			
+			<tr>
+                  <td><code>jquery.flexslider-min.js</code></td>
+                  <td>Flexslider script, used for sliders in the template : OUR PROJECTS and PORTFOLIO</td>
+			</tr>		
+				
+								
+			<tr>
+                  <td><code>prettyPhoto.js</code></td>
+                  <td>Lightbox plugin js file.</td>
+			</tr>
+            
+            <tr>
+                  <td><code>jquery.easing-1.3.pack.js</code></td>
+                  <td>Easign plugin that produces easign feature</td>
+			</tr>
+            
+            
+            <tr>
+                  <td><code>mixitup.js</code></td>
+                  <td>Filtring and sorting plugin, used for sorting of portfolio</td>
+			</tr>
+            
+            <tr>
+                  <td><code>sticky.js</code></td>
+                  <td>Used for sticky Navigation</td>
+			</tr>
+            
+            <tr>
+                  <td><code>jquery.carouFredSel-6.2.1-packed.js</code></td>
+                  <td>carouFredSel is a open source Carousel</td>
+			</tr>
+            
+          </tbody>
+            </table>
+      </div>
+	 </div> 
+	<div class="clearfix"></div> 
+    <hr />	
+
+
+  <div id="cat1_4">
+  <div class="span3">
+	<h3>Images Files</h3>
+	<p>assets/img folder</p>
+  </div>
+
+	<div class="span9">
+       All imges files are placed inside img folder, and img folde has sub folders.
+	 </div> 
+	<div class="clearfix"></div> 
+    <hr />	  
+</div>	
+	
+	<div id="cat1_5">
+  <div class="span3">
+	<h3>Fonts Files</h3>
+	<p>assets/font folder</p>
+  </div>
+
+	<div class="span9">
+        <table class="table table-bordered table-striped">
+              <thead>
+            <tr>
+                  <th>File Name</th>
+                  <th>Description</th>
+                </tr>
+          </thead>
+              <tbody> 
+			<tr>
+                  <td><code>Fonts awesome</code></td>
+                  <td><a href="http://fortawesome.github.io/Font-Awesome/">Fonts awesome</a></td>
+			</tr>							
+          </tbody>
+            </table>
+      </div>
+	 </div> 
+	<div class="clearfix"></div> 
+  </section> <!-- Markup -->
+      
+  </div>
+
+
+
+  <!-- File structure
+  ================================================== -->
+  <div class="bs-docs-section">
+<section id="cat2">
+    <div class="page-header">
+       <h1>Styles <small>Styles customization and highlights</small></h1>
+     </div>
+
+
+    <div id="cat2_1">
+	<div class="span3">
+	   <h3>CSS Structure</h3>
+	   <p><code>main.css</code> contains all of the specific stylings for the page. The file is separated into sections using:</p>
+	</div>
+
+<div class="span9">	
+<pre class="prettyprint linenums">
+/*	Table OF Contents
+==========================
+1-General Styles
+2-Navigation
+3-Navigation
+4-Home/Slider
+5-About-US
+6-Services
+7-Records
+8-Our Work
+9-Team
+10-Social Fonts
+11-Our Clients
+12-Promo Box
+13-Blog
+14-Clients
+15-Contact
+16-footer
+17-Responsive
+18-Flat-Icons
+
+					</pre>
+      </div>
+        </div>
+		
+		
+	
+<br>
+
+	
+		
+		
+  </section>
+  </div>
+
+
+
+
+<!-- File structure
+  ================================================== -->
+  <div class="bs-docs-section">
+<section id="cat2">
+    <div class="page-header">
+       <h1>Skin/Colors <small>How to change layout skin and colors ?</small></h1>
+     </div>
+
+
+    <div id="cat2_2">
+	<div class="span3">
+    	<BR><BR>
+         <h3>Dark Layout</h3>
+       <p>Place dark.css in all of the html pages right after main.css. <BR>dark.css could be found inside assets/css/dark.css</p>
+		<BR><BR>
+         <h3>Dark Navigation</h3>
+         <ul>
+       	<li>Find &lt;header&gt; Tag in the html files (This will be at the start of html files)</li>
+        <li>Add class "dark" in the &lt;header&gt; tag</li>
+       </ul>
+		<BR><BR>
+	   <h3>Colors</h3>
+       <p>Premade colr style sheets could be found inside assets/css/colors/<br>
+		Chose desired colr and place it after main.css
+       </p>
+		
+         <h3>Unsticky Navigation</h3>
+       <p>
+       <ul>
+       	<li>Find &lt;nav&gt; Tag in the header of html files</li>
+        <li>Add class "nav-stop" in the &lt;nav&gt; tag</li>
+       </ul></p>
+	
+        
+    </div>
+
+<div class="span9">	
+ </div>
+</div>
+		
+		
+	
+<br>
+
+	
+		
+		
+  </section>
+  </div>
+
+
+
+
+
+  <!-- Template
+  ================================================== -->
+  <div class="bs-docs-section">
+      <section id="cat3">
+	<div class="page-header">
+	  <h1>JavaScript <small>JavaScript customization and highlights</small></h1>
+      
+      <p><strong>It is recommended that you must get familiar with the API of the plugins used in this template that will help to modify things easily, Links to the plugin sites cold be found in the credit section</strong></p>
+    <h3>Structure</h3>
+     <pre class="prettyprint js ">
+    	Table OF Contents
+	==========================
+	
+	1-Navigation
+	2-Sticky
+	3-sliders
+	4-Blog layout
+	5-Contact
+	6-Portfolio Filtring/Popup
+	7-Animations
+	8-Statistics Handling (Records)
+	9-Google Maps
+	</pre>
+	</div>
+
+	<div id="cat3_1">
+	<div class="span3">
+	  <h3>Mix It Up</h3>
+      
+	</div>
+<div class="span9">
+<pre class="prettyprint js ">
+   $('#Grid').mixitup({
+        targetSelector: '.project',
+        effects: ['scale'],
+        easing: 'snap',
+        transitionSpeed: 500,
+    });
+</pre>
+More options and documentation, please check <a href="http://mixitup.io/">here</a>.
+       </div>
+        </div>
+
+
+		<div  id="cat3_2">
+	<div class="span3">
+	  <h3>How to use flexslider</h3>
+      
+      
+	</div>
+<div class="span9">
+<pre class="prettyprint js ">
+	$('#container').flexslider({
+        animation: "slide",
+        directionNav: false,
+        controlNav: false,
+        pauseOnHover: true,
+        slideshowSpeed: 6000,
+        direction: "horizontal" //Direction of slides
+    });
+</pre>
+More options and documentation, please check <a href="http://www.woothemes.com/flexslider/">here</a>.
+      </div>
+        </div>	
+
+		
+<div class="span9">
+
+		
+		<div  id="cat3_3">
+	<div class="span3">
+	  <h3>Masonry layout</h3>
+	  <p>In blog.html layout is being handaled by masonry Plugin</p>
+	</div>
+<div class="span9">
+<pre class="prettyprint js ">
+ 		var $container = $('.masonry-container');
+       
+        $container.masonry({
+            itemSelector: '.post-unit'
+        });
+</pre>
+More options and documentation, please check <a href="http://masonry.desandro.com/">here</a>.
+
+      </div>
+        </div>
+		
+	</div>
+    <div  id="cat3_4">
+	<div class="span3">
+	  <h3>CarouselFredSel</h3>
+	  <p>open sourse Slider</p>
+	</div>
+    	<div class="span9">
+<pre class="prettyprint js ">
+ 	$('.about-wrapper').carouFredSel({
+        width: "100%",
+        circular: false,
+        infinite: false,
+        auto: false,
+        scroll: {
+            items: 1,
+            easing: "linear"
+        },
+        prev: {
+            button: "#phase-prev",
+            key: "left"
+        },
+        next: {
+            button: "#phase-next",
+            key: "right"
+        }
+    });
+</pre>
+More options and documentation, please check <a href="http://caroufredsel.dev7studios.com/">here</a>.
+
+      </div>
+        </div>
+	
+  </section>
+  </div>
+
+
+
+  <!-- Template
+  ================================================== -->
+  <div class="bs-docs-section">
+      <section id="cat4">
+	<div class="page-header">
+	  <h1>PHP <small>Contact form customization and highlights</small></h1>
+	</div>
+
+	<div  id="cat4_1">
+	<div class="span3">
+	  <h3>Changin the email address in contact or newsletter form</h3>
+	  <p>open up the file <code> php/contact.php </code>, <code> php/newsletter.php </code>, <code> php/subscribe.php </code> and change the following code:</p>
+	</div>
+<div class="span9">
+<pre class="prettyprint js ">
+$your_email="your_email@site.com";
+</pre>
+      </div>
+        </div>
+
+  </section>
+  </div>
+
+
+
+  <!-- Template
+  ================================================== -->
+  <div class="bs-docs-section">
+<section id="cat5">
+
+	  <div class="page-header">
+	    <h1>Credits Files <small>Some of your credits and sources</small></h1>
+	  </div>
+	  <div  id="cat5_1">
+	  <p>I've used the following images, icons or other files as listed.</p>
+	  <h3>JavaScript</h3>
+	  <ol>
+	    <li><a href="http://www.woothemes.com/flexslider">Flex Slider</a> <small>&mdash; Fully responsive jQuery slider toolkit. </small></li>
+	    <li><a href="http://caroufredsel.dev7studios.com/">CarouselfredSel</a> <small>&mdash; Full size jQuery slider. </small></li>
+	    <li><a href="http://masonry.desandro.com/">Masonry</a> <small>&mdash; jQuery plugin for filtering and sorting of elements </small></li>
+	    <li><a href="http://mixitup.io/">mixitup</a> <small>&mdash; jQuery parallax plugin</small></li>
+	  	<li><a href="http://gsgd.co.uk/sandbox/jquery/easing/">Easing</a> <small>&mdash; jQuery Easing plugin</small></li>
+	  <li><a href="http://labs.anthonygarand.com/sticky">sticky</a> <small>&mdash; jQuery Easing plugin</small></li>
+	  
+      </ol>
+	  <h3>CSS</h3>
+	  <ol>
+		<li><a href="http://twitter.github.io/bootstrap">Twitter Boostrap</a> <small>&mdash; Front-end framework. </small></li>
+	    <li><a href="http://fortawesome.github.io/Font-Awesome">Font-Awesome</a> <small>&mdash; Icons used in the template. </small></li>
+	  </ol>
+	  </div>
+	</section>
+  
+  </div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer
+    ================================================== -->
+    <footer class="bs-footer" role="contentinfo">
+      <div class="container">
+
+        <p>&copy; NasirWd 2013</p>
+      </div>
+    </footer>
+
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/holder.js"></script>
+<script src="assets/js/application.js"></script>
+
+
+  </body>
+</html>
